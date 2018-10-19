@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false">
+    <php>
+        <const name="IP" value="127.0.0.1"/>
+        <const name="PORT" value="9000"/>
+        <const name="USERNAME" value="coin"/>
+        <const name="PASSWORD" value="coinpass"/>
+    </php>
+    <testsuites>
+        <testsuite name="test Suite">
+            <directory suffix=".php">./tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
