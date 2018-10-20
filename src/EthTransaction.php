@@ -10,7 +10,7 @@ namespace BlockExplorer;
  * @see https://github.com/ethereum/wiki/blob/master/JSON-RPC.md
  * @version 1.1.2
  */
-class Transaction extends DaemonData
+class EthTransaction extends DaemonData
 {
     /*
     eth_getTransactionByHash
