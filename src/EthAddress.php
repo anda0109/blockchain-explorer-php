@@ -10,7 +10,7 @@
 namespace BlockExplorer;
 
 
-class Address extends DaemonData
+class EthAddress extends DaemonData
 {
     //获取ETH地址余额
     public function getBanlance($address)
