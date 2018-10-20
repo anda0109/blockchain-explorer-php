@@ -10,7 +10,7 @@ namespace BlockExplorer;
  * @see https://github.com/ethereum/wiki/blob/master/JSON-RPC.md
  * @version 1.1.2
  */
-class BlockChain extends DaemonData
+class EthBlockChain extends DaemonData
 {
     /**
      * 获取区块数目
