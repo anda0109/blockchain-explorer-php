@@ -10,7 +10,7 @@ namespace BlockExplorer;
  * @see https://github.com/ethereum/wiki/blob/master/JSON-RPC.md
  * @version 1.1.2
  */
-class NetworkInfo extends DaemonData
+class EthNetworkInfo extends DaemonData
 {
     /**
      * 获取网络版本
